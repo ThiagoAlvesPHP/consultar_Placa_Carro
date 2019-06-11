@@ -1,0 +1,52 @@
+[
+    {
+        "name": "chapeupreto/sinesp",
+        "version": "v1.7.0",
+        "version_normalized": "1.7.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/chapeupreto/sinesp.git",
+            "reference": "e9cd0963594d6fa5ea5c052094ac3c4239afcdd6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/chapeupreto/sinesp/zipball/e9cd0963594d6fa5ea5c052094ac3c4239afcdd6",
+            "reference": "e9cd0963594d6fa5ea5c052094ac3c4239afcdd6",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-libxml": "*",
+            "ext-xml": "*",
+            "php": ">=5.4.0"
+        },
+        "time": "2019-01-12T18:27:11+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Sinesp\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Rod Elias",
+                "email": "rodiney@gmail.com"
+            }
+        ],
+        "description": "SINESP Cidadao API client",
+        "keywords": [
+            "governo",
+            "placa",
+            "seguranca",
+            "sinesp",
+            "sinesp-client",
+            "utilidade",
+            "veiculos"
+        ]
+    }
+]
